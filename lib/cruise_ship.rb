@@ -1,3 +1,4 @@
+=begin
  passengers = {
  suite_a: "Amanda Presley",
  suite_b: "Seymour Hoffman",
@@ -5,6 +6,7 @@
  suite_d: "Charlie Chaplin",
  suite_e: "Crumpet the Elf"
  }
+=end 
 
 def select_winner(passengers)
   # add the code snippet here!
@@ -13,4 +15,4 @@ def select_winner(passengers)
   end
 end
 
-select_winner(passengers)
+
