@@ -6,13 +6,11 @@
  suite_d: "Charlie Chaplin",
  suite_e: "Crumpet the Elf"
  }
-=end 
+=end
 
 def select_winner(passengers)
   # add the code snippet here!
   passengers.each do |suite, name|
-    puts "Passenger #{name} is in #{suite}. "
+    return passengers[:suite_a]
   end
 end
-
-
