@@ -12,3 +12,5 @@ def select_winner(passengers)
     puts "Passenger #{name} is in #{suite}. "
   end
 end
+
+select_winner
