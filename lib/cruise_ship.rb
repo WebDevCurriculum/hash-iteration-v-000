@@ -11,7 +11,7 @@
 def select_winner(passengers)
   # add the code snippet here!
   passengers.each do |suite, name|
-    return passengers[:suite_a]
+    puts passengers[:suite_a]
   end
 end
 
