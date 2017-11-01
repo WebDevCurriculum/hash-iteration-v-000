@@ -9,6 +9,6 @@
 def select_winner(passengers)
   # add the code snippet here!
   passengers.each do |suite, name|
-    return "Passenger #{name} is in #{suite}. "
+    puts "Passenger #{name} is in #{suite}. "
   end
 end
